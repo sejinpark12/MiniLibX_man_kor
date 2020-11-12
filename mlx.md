@@ -60,7 +60,7 @@ MiniLibX 함수를 사용하기 위해서는 MiniLibX 라이브러리와 몇가�
 `mlx_init()` 이 그래픽 시스템 연결을 실패할 경우, `NULL`이 반환됩니다. 성공할 경우, `NULL`이 아닌 포인터가 연결 식별자로 반환됩니다.
 
 ## SEE ALSO
-[mlx_new_window(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_new_window.md), [mlx_pixel_put(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_pixel_put.md), mlx_new_image(3), mlx_loop(3)
+[mlx_new_window(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_new_window.md), [mlx_pixel_put(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_pixel_put.md), [mlx_new_image(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_new_image.md), mlx_loop(3)
 
 ## AUTHOR
 Copyright ol@ - 2002-2015 - Olivier Crouzet
