@@ -28,7 +28,7 @@ MiniLibX는 임의의 수의 개별 윈도우를 처리할 수 있음을 주목�
 `mlx_new_window()`가 새로운 윈도우 생성을 실패(어떤 이유로든)할 경우, `NULL`을 반환합니다. 성공할 경우, `NULL`이 아닌 포인터가 윈도우 식별자로 반환됩니다. `mlx_clear_window`와 `mlx_destroy_window`는 당장 아무것도 반환하지 않습니다.
 
 ## SEE ALSO
-[mlx(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx.md), [mlx_pixel_put(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_pixel_put.md), [mlx_new_image(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_new_image.md), mlx_loop(3)
+[mlx(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx.md), [mlx_pixel_put(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_pixel_put.md), [mlx_new_image(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_new_image.md), [mlx_loop(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_loop.md)
 
 ## AUTHOR
 Copyright ol@ - 2002-2015 - Olivier Crouzet

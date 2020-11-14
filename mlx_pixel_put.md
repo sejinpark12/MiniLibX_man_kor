@@ -41,7 +41,7 @@ color 파라미터는 정수형 타입을 가지고 있습니다.
 
 
 ## SEE ALSO
-[mlx(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx.md), [mlx_new_window(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_new_window.md), [mlx_new_image(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_new_image.md), mlx_loop(3)
+[mlx(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx.md), [mlx_new_window(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_new_window.md), [mlx_new_image(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_new_image.md), [mlx_loop(3)](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_loop.md)
 
 ## AUTHOR
 Copyright ol@ - 2002-2015 - Olivier Crouzet
