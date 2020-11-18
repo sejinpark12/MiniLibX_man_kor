@@ -37,10 +37,10 @@ MiniLibX API를 올바르게 사용하기 위해서는 mlx.h를 인클루드해�
 
 모든 다른 MiniLibX 함수들은 다음의 man 페이지에 설명되어 있습니다:
 
-	- [mlx_new_window](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_new_window.md) : 윈도우 관리
-	- [mlx_pixel_put](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_pixel_put.md) : 윈도우에 그리기
-	- mlx_new_image : 이미지 조작
-	- mlx_loop : 키보드/마우스 이벤트 처리
+- [mlx_new_window](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_new_window.md) : 윈도우 관리
+- [mlx_pixel_put](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_pixel_put.md) : 윈도우에 그리기
+- [mlx_new_image](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_new_image.md) : 이미지 조작
+- [mlx_loop](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_loop.md) : 키보드/마우스 이벤트 처리
 
 ## LINKING MiniLibX on BSD/Linux and X-Window
 MiniLibX 함수를 사용하기 위해서는 MiniLibX 라이브러리를 포함하여 몇가지 라이브러리를 당신의 소프트웨어에 링크시켜야 합니다. 이 작업을 하기 위해서, 간단히 다음의 인자들을 링크할 때 추가합니다:
