@@ -39,7 +39,7 @@ mlx_destroy_image(void *mlx_ptr, void *img_ptr);
 `mlx_destroy_image`는 주어진 이미지(`img_ptr`)를 파괴합니다.
 
 ## STORING COLOR INSIDE IMAGES
-디스플레이에 따라, 픽셀 색을 저장하는데 필요한 비트 수는 변경할 수 있습니다. 사용자는 주로 RGB 모드로 색상을 나타냅니다. RGB 모드는 각 성분으로 한 바이트를 사용합니다([mlx_pixel_put man page](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_pixel_put.md)를 보십시오). 이미지의 bits_per_pixel 요구사항에 맞게 변환되어야 하며, 그래픽 시스템이 이해할 수 있는 색상을 만들어야 합니다. 이것이 `mlx_get_color_value()` 함수의 목적입니다. 표준 RGB 색상 파라미터를 받고, unsiged int 값을 반환합니다. 이 값의 `bits_per_pixel` 최하위 비트는 이미제에 저장될 수 있습니다.
+디스플레이에 따라, 픽셀 색을 저장하는데 필요한 비트 수는 변경할 수 있습니다. 사용자는 주로 RGB 모드로 색상을 나타냅니다. RGB 모드는 각 성분으로 한 바이트를 사용합니다([mlx_pixel_put man page](https://github.com/psj3205/MiniLibX_man_kor/blob/main/mlx_pixel_put.md)를 보십시오). 이미지의 bits_per_pixel 요구사항에 맞게 변환되어야 하며, 그래픽 시스템이 이해할 수 있는 색상을 만들어야 합니다. 이것이 `mlx_get_color_value()` 함수의 목적입니다. 표준 RGB 색상 파라미터를 받고, unsiged int 값을 반환합니다. 이 값의 `bits_per_pixel` 최하위 비트는 이미지에 저장될 수 있습니다.
 
 최하위 비트 위치는 로컬 컴퓨터의 엔디안을 따른다는 것을 명심하십시오. 이미지의 엔디안이 로컬 엔디안과 다르다면, 사용하기 전에 값을 변환해야 합니다.
 
